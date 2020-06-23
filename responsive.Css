@@ -1,0 +1,260 @@
+
+/*************************MENU HEADER**************************/
+@media screen and (max-width:900px){
+    #menu ul li{
+        font-size:15px;
+        padding:10px;
+    }
+   
+    #menu ul li .bigsize{
+        display:none;
+    }
+    .menurspv{display:inline;padding:0;
+    }
+    #menu i {
+        padding:0;
+        padding-top:30px;
+        font-size:20px;
+    }
+
+    .logo{
+        width: 120px;
+        height:120px;
+        top:-10px;
+    }
+    
+}
+/***************SLIDER ACCUEIL******************/
+
+@media screen and (max-width:900px){
+
+    h1{
+        font-size: 30px;
+        }
+    .textdiapo h1{
+        padding:10px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    #slideraccueil{
+        background-image: url(img/reno7petit.png);
+        background-size: cover;
+    }
+    #slideraccueil .devis{
+        top:85%;
+    }
+    .textdiapo{
+        top:30%;
+    }
+    .bigtitle{
+        font-size:40px;
+    }
+    #slideraccueil .devis input{
+      top:88%;
+      font-size: 15px;
+      padding:10px;
+    }
+    
+    #coordonnees{
+        width:100%;
+        display: block;
+        text-align:center;
+    }
+
+    .contain{
+        margin:0 auto;
+    } 
+    h3{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width:330px){
+    
+    h1{
+        font-size: 25px;
+        }
+    
+   
+}
+
+
+
+/***********************Categories************************/
+@media screen and (max-width: 1145px){
+    .categories ul li{
+        display:inline-block;
+        padding:10px;
+    }
+    
+    .categories{
+        padding-bottom:0px;
+        text-align:initial;
+        text-align:center;
+    }
+    .tablinks{
+        padding:8px 6px;
+    }
+}
+
+
+/**********galleries**********************/
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+    .ba-slider{
+      float:none;
+      width:100%;
+    }
+    .textpresta{
+      float:none;
+      width: 100%;
+    }
+    .descripresta{
+      padding:0;
+    }
+    .descri-devis{
+        display:inline-block;
+        margin:30px;
+        padding:0;
+    }
+    .content{
+        width:90%;
+        margin:auto;
+    }
+    .content img{
+        filter:none;
+    }
+    .main{
+        margin-top:10px;
+    }
+    .handle:after {  /* Big orange knob  */
+        position: absolute;
+        top: 50%;
+        width: 44px;
+        height: 44px;
+        margin: -22px 0 0 -22px;
+     
+        content:'\21D4';
+        color:white;
+        font-weight:bold;
+        font-size:25px;
+        text-align:center;
+        line-height:44px;
+     
+        background: #ffb800; /* @orange */
+        border:1px solid #e6a600; /* darken(@orange, 5%) */
+        border-radius: 50%;
+        transition:all 0.3s ease;
+        box-shadow:
+          0 2px 6px rgba(0,0,0,.3), 
+          inset 0 2px 0 rgba(255,255,255,.5),
+          inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
+    }
+    
+    .draggable:after {
+        width: 48px;
+        height: 48px;
+        margin: -24px 0 0 -24px;
+        line-height:48px;
+        font-size:30px;
+    }
+    
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .backliste{
+        display:block;
+        width:80%; 
+        margin:auto;
+    }
+    .backliste input{
+        font-size: 20px;
+        padding: 18px;
+        color: white;
+        background: #CCA43B;
+        width:100%;
+        border:none;
+    }
+    #slideraccueil{
+        background-image: url(img/reno8petit.png);
+       background-position: center;
+       background-size: cover;
+       background-repeat:no-repeat;
+       height:400px;
+    }
+}
+  
+    
+/**************DEVIS ET MAPGOOGLE*********/
+       
+@media screen and (max-width:900px){
+    .pubdevis{
+        text-align: center;
+        height:auto;
+        margin:0 auto;
+            float:none;
+            width:100%;
+            display:block;
+            margin-bottom:50px;
+            padding-top: 0;
+            background:url(img/devisbanfiltre.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .pubdevis h3{
+            font-weight:bold;
+        }
+        .pubdevis i{
+            margin-top: 10px;
+        }
+       
+    }     
+
+/********TEMOIGNAGES*******************/
+
+@media screen and (max-width:1330px){
+    .temoignages p{
+        padding-top: 20px;
+    }
+    .fa-quote-right, .fa-quote-left{    /***cache les icon quote***/
+        visibility: hidden;
+    }
+
+    .quotes{
+        visibility: visible;
+    }
+}
+
+
+
+/*********************formulaire de contact**************************/
+@media screen and (max-width:900px){
+#contactform{
+    height: 445px; 
+    width:100%;
+    display: block;
+} 
+
+/*****************************FOOTER*********************/
+
+}
+
+@media only screen and (max-width: 500px){
+    #scroll-top{
+    right: 10px;
+    bottom: 10px;
+    width: 26px;
+    height: 26px;
+    line-height: 24px;
+    font-size: 14px;
+    }
+}
